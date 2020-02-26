@@ -18,6 +18,8 @@
     "@babel/runtime": "^7.6.2",
     "babel-loader": "^8.0.6",
     "react-router-dom": "5.0.0",
+    "google-maps-react": "^2.0.2",
+    "react-google-maps": "^9.4.5",
     "redbox-react": "1.6.0"
   },
   "devDependencies": {
