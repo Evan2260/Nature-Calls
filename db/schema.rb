@@ -20,11 +20,11 @@ ActiveRecord::Schema.define(version: 2020_02_25_193240) do
     t.string "address", null: false
     t.string "sanitation", null: false
     t.string "restroom_image", null: false
-    t.boolean "payment?"
-    t.boolean "paying_customer?"
-    t.boolean "employee_only?"
-    t.boolean "key_access?"
-    t.boolean "handicap_stall?"
+    t.boolean "payment?", null: false
+    t.boolean "paying_customer?", null: false
+    t.boolean "employee_only?", null: false
+    t.boolean "key_access?", null: false
+    t.boolean "handicap_stall?", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
